@@ -1,0 +1,1302 @@
+== HARDWARE INFO ==
+hw model            = CFI-2009 A01
+Package ID          = PKG-2590
+Serial Number       = F44101WRA10304411
+Model Number        = 0000027425113I}
+SOC UID             = EF497D96F99991FD0D815F1C53262F7F
+WLAN MAC            = EC748C1046E7
+E:\EMC\DonysTools\W25Q16JV.bin
+== Emc Error Log ==
+# No  Code      Rtc           PowState      UpCause         SeqNo      DevPm     T(SoC)  T(Env)  Padding(0) Padding(1) | Decoded Messages
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+00 B0088108 17D74A54 13000005 10010000 003E 217B 2300 32E0 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Sonics Bus Error
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+01 C0020303 17D74A54 130000E5 10010000 003E 217B 2300 32E0 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+02 80000009 17D770A4 11000005 10010000 003E 217B 22C4 3C2C FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+03 B0088108 17D770A4 11000005 10010000 003E 217B 22C4 3C2C FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Sonics Bus Error
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+04 C0020303 17D770A4 11000005 10010000 003E 217B 22C4 3C2C FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+05 C0020303 17D770A4 110000E5 10010000 003E 217B 22C4 3C2D FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+06 80000009 17D77407 11000005 10010000 003E 217B 2277 36CE FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+07 80830019 17D77407 11000005 10010000 003E 217B 2277 36CE FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+08 B0088108 17D77407 11000005 10010000 003E 217B 2277 36CE FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Sonics Bus Error
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+09 C0020303 17D77407 110000E5 10010000 003E 217B 2277 36CE FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10 C0020303 17D77407 110000E5 10010000 003E 217B 2278 36CF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11 C0020303 17D77407 110000E5 10010000 003E 217B 2278 36CF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+12 80000009 17D8C745 FF400004 10000000 0026 2179 1F96 FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : EAP_Redy:EAP_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13 80000009 17D90C14 12000005 10010000 003E 217B 21BE 3A64 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14 C0020303 17D90C14 12000005 10010000 003E 217B 21BE 3A64 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+15 C0020303 17D90C14 120000E5 10010000 003E 217B 21BE 3A5F FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+16 80000009 17D90C17 FFFF0042 10000000 0004 2033 FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+17 80810001 17D90C18 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Power Seq Error
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+18 80000009 17D9167C 81BF0005 10000100 003E 2106 1EE3 2AD3 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : Kernel__:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+19 C0020303 17D9167D 81BF0005 10000100 003E 2106 1EE3 2AD3 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : Kernel__:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+20 C0020303 17D9167D 81BF00E5 10000100 003E 217B 1EE4 2ADE FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : Kernel__:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+21 C0020303 17D9167D 81BF00E5 10000100 003E 217B 1EE4 2AE8 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : Kernel__:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+22 80000009 17D91681 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+23 80810001 17D91681 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Power Seq Error
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+24 80000009 1821B195 15000005 10010000 003E 217B 1AEE 2E74 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+25 B0088108 1821B195 15000005 10010000 003E 217B 1AEE 2E74 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Sonics Bus Error
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+26 C0020303 1821B195 15000005 10010000 003E 217B 1AEE 2E74 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+27 C0020303 1821B195 150000E5 10010000 003E 217B 1AEE 2E75 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+28 80000009 1821C4E7 12000005 10010000 003E 211D 2040 44E0 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+29 C0020303 1821C4E7 120000E5 10010000 003E 217B 2040 44E0 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+30 C0020303 1821C4E7 120000E5 10010000 003E 217B 2040 44DF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+31 80000009 182235F1 12000005 10020000 003E 217B 1E40 30B8 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+32 B0088108 182235F1 12000005 10020000 003E 217B 1E40 30B8 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Sonics Bus Error
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+33 C0020303 182235F1 120000E5 10020000 003E 217B 1E40 30B8 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+34 C0020303 182235F1 120000E5 10020000 003E 217B 1E40 30B9 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+35 80000009 18229D49 15010005 10010000 0036 2179 1ABC 2AC0 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : MaOnStby:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: OFF, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+36 C0020303 18229D49 15010005 10010000 0036 2179 1ABC 2AC0 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : MaOnStby:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: OFF, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+37 C0020303 18229D49 150100E5 10010000 0036 217B 1ABC 2AC4 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : MaOnStby:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: OFF, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+38 C0020303 18229D49 150100E5 10010000 0036 217B 1ABC 2AC9 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : MaOnStby:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: OFF, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+39 80000009 1822CC97 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+40 80810001 1822CC97 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Power Seq Error
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+41 80000009 1822CCB1 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+42 80810001 1822CCB1 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Power Seq Error
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+43 80000009 1822CCB5 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+44 80810001 1822CCB5 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Power Seq Error
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+45 80000009 182313CF 12000005 10010000 003E 217B 2047 4518 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+46 B0088108 182313CF 12000005 10010000 003E 217B 2047 4518 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Sonics Bus Error
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+47 C0020303 182313CF 12000005 10010000 003E 217B 2047 4518 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+48 C0020303 182313CF 12000005 10010000 003E 217B 2048 4516 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+49 C0020303 182313CF 120000E5 10010000 003E 217B 2048 4514 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+50 C0020303 182313D0 120000E5 10010000 003E 217B 2049 4510 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+51 C0020303 182313D0 120000E5 10010000 003E 2013 204A 450C FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+52 80000009 182470F3 14000005 10010000 003E 217B 21D3 46D9 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+53 C0020303 182470F4 14000005 10010000 003E 217B 21D3 46D9 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+54 C0020303 182470F4 140000E5 10010000 003E 217B 21D4 46BA FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+55 C0020303 182470F4 140000E5 10010000 003E 217B 21D4 469A FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+56 80000009 18255F47 81BF0005 10010000 003E 21A9 193F 25E2 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : Kernel__:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+57 C0020303 18255F47 81BF0005 10010000 003E 21A9 193F 25E2 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : Kernel__:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+58 C0020303 18255F48 81BF00E5 10010000 003E 217B 1940 25E4 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : Kernel__:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+59 C0020303 18255F48 81BF00E5 10010000 003E 217B 1940 25E7 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : Kernel__:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+60 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+61 C0020303 17D4F35D 120000E5 10010000 003E 217B 2240 33E5 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+62 C0020303 17D4F35D 120000E5 10010000 003E 217B 2240 33E5 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+63 80000009 17D74A54 13000005 10010000 003E 217B 2300 32E0 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+64 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+65 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+66 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+67 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+68 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+69 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+70 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+71 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+72 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+73 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+74 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+75 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+76 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+77 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+78 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+79 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+80 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+81 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+82 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+83 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+84 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+85 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+86 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+87 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+88 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+89 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+90 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+== UART Data (Option 2) == from E:\EMC\DonysTools\W25Q16JV.bin
+Line No. | Hex Data (4-byte chunks)
+------------------------------------
+------------------------------------
+
+
+== FULL EMC ERROR LOG WITH DECODING ==
+E:\EMC\DonysTools\W25Q16JV.bin
+== Emc Error Log ==
+# No  Code      Rtc           PowState      UpCause         SeqNo      DevPm     T(SoC)  T(Env)  Padding(0) Padding(1) | Decoded Messages
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+00 B0088108 17D74A54 13000005 10010000 003E 217B 2300 32E0 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Sonics Bus Error
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+01 C0020303 17D74A54 130000E5 10010000 003E 217B 2300 32E0 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+02 80000009 17D770A4 11000005 10010000 003E 217B 22C4 3C2C FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+03 B0088108 17D770A4 11000005 10010000 003E 217B 22C4 3C2C FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Sonics Bus Error
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+04 C0020303 17D770A4 11000005 10010000 003E 217B 22C4 3C2C FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+05 C0020303 17D770A4 110000E5 10010000 003E 217B 22C4 3C2D FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+06 80000009 17D77407 11000005 10010000 003E 217B 2277 36CE FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+07 80830019 17D77407 11000005 10010000 003E 217B 2277 36CE FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+08 B0088108 17D77407 11000005 10010000 003E 217B 2277 36CE FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Sonics Bus Error
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+09 C0020303 17D77407 110000E5 10010000 003E 217B 2277 36CE FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10 C0020303 17D77407 110000E5 10010000 003E 217B 2278 36CF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11 C0020303 17D77407 110000E5 10010000 003E 217B 2278 36CF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+12 80000009 17D8C745 FF400004 10000000 0026 2179 1F96 FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : EAP_Redy:EAP_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13 80000009 17D90C14 12000005 10010000 003E 217B 21BE 3A64 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14 C0020303 17D90C14 12000005 10010000 003E 217B 21BE 3A64 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+15 C0020303 17D90C14 120000E5 10010000 003E 217B 21BE 3A5F FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+16 80000009 17D90C17 FFFF0042 10000000 0004 2033 FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+17 80810001 17D90C18 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Power Seq Error
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+18 80000009 17D9167C 81BF0005 10000100 003E 2106 1EE3 2AD3 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : Kernel__:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+19 C0020303 17D9167D 81BF0005 10000100 003E 2106 1EE3 2AD3 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : Kernel__:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+20 C0020303 17D9167D 81BF00E5 10000100 003E 217B 1EE4 2ADE FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : Kernel__:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+21 C0020303 17D9167D 81BF00E5 10000100 003E 217B 1EE4 2AE8 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : Kernel__:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+22 80000009 17D91681 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+23 80810001 17D91681 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Power Seq Error
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+24 80000009 1821B195 15000005 10010000 003E 217B 1AEE 2E74 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+25 B0088108 1821B195 15000005 10010000 003E 217B 1AEE 2E74 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Sonics Bus Error
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+26 C0020303 1821B195 15000005 10010000 003E 217B 1AEE 2E74 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+27 C0020303 1821B195 150000E5 10010000 003E 217B 1AEE 2E75 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+28 80000009 1821C4E7 12000005 10010000 003E 211D 2040 44E0 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+29 C0020303 1821C4E7 120000E5 10010000 003E 217B 2040 44E0 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+30 C0020303 1821C4E7 120000E5 10010000 003E 217B 2040 44DF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+31 80000009 182235F1 12000005 10020000 003E 217B 1E40 30B8 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+32 B0088108 182235F1 12000005 10020000 003E 217B 1E40 30B8 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Sonics Bus Error
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+33 C0020303 182235F1 120000E5 10020000 003E 217B 1E40 30B8 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+34 C0020303 182235F1 120000E5 10020000 003E 217B 1E40 30B9 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+35 80000009 18229D49 15010005 10010000 0036 2179 1ABC 2AC0 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : MaOnStby:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: OFF, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+36 C0020303 18229D49 15010005 10010000 0036 2179 1ABC 2AC0 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : MaOnStby:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: OFF, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+37 C0020303 18229D49 150100E5 10010000 0036 217B 1ABC 2AC4 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : MaOnStby:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: OFF, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+38 C0020303 18229D49 150100E5 10010000 0036 217B 1ABC 2AC9 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : MaOnStby:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: OFF, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+39 80000009 1822CC97 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+40 80810001 1822CC97 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Power Seq Error
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+41 80000009 1822CCB1 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+42 80810001 1822CCB1 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Power Seq Error
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+43 80000009 1822CCB5 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+44 80810001 1822CCB5 FFFF0042 10000000 0004 217C FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Power Seq Error
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: ON, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+45 80000009 182313CF 12000005 10010000 003E 217B 2047 4518 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+46 B0088108 182313CF 12000005 10010000 003E 217B 2047 4518 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Sonics Bus Error
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+47 C0020303 182313CF 12000005 10010000 003E 217B 2047 4518 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+48 C0020303 182313CF 12000005 10010000 003E 217B 2048 4516 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+49 C0020303 182313CF 120000E5 10010000 003E 217B 2048 4514 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+50 C0020303 182313D0 120000E5 10010000 003E 217B 2049 4510 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+51 C0020303 182313D0 120000E5 10010000 003E 2013 204A 450C FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+52 80000009 182470F3 14000005 10010000 003E 217B 21D3 46D9 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+53 C0020303 182470F4 14000005 10010000 003E 217B 21D3 46D9 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+54 C0020303 182470F4 140000E5 10010000 003E 217B 21D4 46BA FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+55 C0020303 182470F4 140000E5 10010000 003E 217B 21D4 469A FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+56 80000009 18255F47 81BF0005 10010000 003E 21A9 193F 25E2 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : Kernel__:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+57 C0020303 18255F47 81BF0005 10010000 003E 21A9 193F 25E2 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : Kernel__:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+58 C0020303 18255F48 81BF00E5 10010000 003E 217B 1940 25E4 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : Kernel__:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+59 C0020303 18255F48 81BF00E5 10010000 003E 217B 1940 25E7 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : Kernel__:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+60 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+61 C0020303 17D4F35D 120000E5 10010000 003E 217B 2240 33E5 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+62 C0020303 17D4F35D 120000E5 10010000 003E 217B 2240 33E5 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : Main SoC Access Err (SB-TSI I2C)
+      PowerState  : SysReady:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+63 80000009 17D74A54 13000005 10010000 003E 217B 2300 32E0 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : AC In Detect
+      PowerState  : SysReady:SOC_ON
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+64 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+65 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+66 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+67 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+68 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+69 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+70 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+71 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+72 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+73 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+74 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+75 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+76 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+77 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+78 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+79 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+80 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+81 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+82 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+83 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+84 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+85 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+86 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+87 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+88 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+89 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+90 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+== UART Data (Option 2) == from E:\EMC\DonysTools\W25Q16JV.bin
+Line No. | Hex Data (4-byte chunks)
+------------------------------------
+------------------------------------
