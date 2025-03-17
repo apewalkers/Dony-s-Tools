@@ -19,6 +19,31 @@ def extract_hex_data(file_path, start_offset, end_offset):
             raise ValueError("Data length is not a multiple of 4 bytes, check the offsets.")
         hex_data = [f"{int.from_bytes(data[i:i+4], 'little'):08X}" for i in range(0, len(data), 4)]
         return hex_data
+    
+def color_gradient_terminal(terminal_output, colors):
+    """
+    Applies alternating color gradients to a terminal output string.
+
+    Args:
+        terminal_output: The terminal output string.
+        colors: A list of 5 color codes for the gradient.
+               Each color code should be a string representing an ANSI escape code
+               for setting text color, e.g., "\033[31m" for red.
+
+    Returns:
+        The terminal output string with color gradients applied.
+    """
+
+    lines = terminal_output.splitlines()
+    colored_lines = []
+    color_index = 0
+
+    for line in lines:
+        colored_line = colors[color_index % len(colors)] + line + "\033[0m"  # Apply color, reset color
+        colored_lines.append(colored_line)
+        color_index += 1
+
+    return "\n".join(colored_lines)
 
 def format_emc_error_log_data(hex_data, file_path):
     formatted_data = f"{file_path}\n== Emc Error Log ==\n"
@@ -33,19 +58,11 @@ def format_emc_error_log_data(hex_data, file_path):
             formatted_row += f"      ErrCode     : {decoded.err_code(row[0]).strip()}\n"
             formatted_row += f"      PowerState  : {decoded.pw_state(row[2]).strip()}\n"
             formatted_row += f"      UpCause     : {decoded.upcause(row[3]).strip()}\n"
+            formatted_row += f"      PSQ         : {decoded.psq(row[4][4:8]).strip()}       {(row[4][4:8]).strip()}\n"
             formatted_row += f"      DevPower    : {decoded.devpower(row[4][:4]).strip()}\n"
             formatted_row += "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n"
             formatted_data += formatted_row
 
-    return formatted_data
-
-def format_uart_data(hex_data, file_path): # Keep format_uart_data in nor.py for now, can move to uart.py later if needed.
-    formatted_data = f"\n== UART Data (Option 2) == from {file_path}\n"
-    formatted_data += "Line No. | Hex Data (4-byte chunks)\n"
-    formatted_data += "------------------------------------\n"
-    for index, hex_value in enumerate(hex_data):
-        formatted_data += f"  {index:04d}   | {hex_value}\n"
-    formatted_data += "------------------------------------\n"
     return formatted_data
 
 
@@ -64,11 +81,22 @@ def decode_nor_functionality(output_area=None):  # output_area is now optional f
 
         print(f"\n--- Current directory: {current_dir} ---")
         print("0: Go up one directory")
-        for i, d in enumerate(dirs):
-            print(f"{i + 1}: [DIR] {d}")
-        for i, bin_file in enumerate(bin_files):
-            print(f"{len(dirs) + i + 1}: [BIN] {bin_file}")
 
+        colors = [
+        "\033[31m",  # Red
+        "\033[32m",  # Green
+        "\033[33m",  # Yellow
+        "\033[34m",  # Blue
+        "\033[35m",  # Magenta
+        ]
+
+        for i, d in enumerate(dirs):
+            colored_line = colors[i % len(colors)] + f"{i + 1}: [DIR] {d}" + "\033[0m"
+            print(colored_line)
+
+        for i, bin_file in enumerate(bin_files):
+            colored_line = colors[(len(dirs) + i) % len(colors)] + f"{len(dirs) + i + 1}: [BIN] {bin_file}" + "\033[0m"
+            print(colored_line)
         if not bin_files and not dirs:
             print("No .bin files or directories found in this directory.")
             choice = input("Enter 0 to go up or 'q' to quit: ")
@@ -106,31 +134,52 @@ def decode_nor_functionality(output_area=None):  # output_area is now optional f
                             f.seek(0)
 
 
-                            data_offsets = {
-                                "hw_model": {"offset": 0x1C7230, "size": 0x20, "type": "string"},
-                                "Package_ID": {"offset": 0x1C73E0, "size": 0x8, "type": "string"},
-                                "Serial_Number": {"offset": 0x1C7210, "size": 0x11, "type": "string"},
-                                "Model_Number": {"offset": 0x1C7250, "size": 0x13, "type": "string"},
-                                "SOC_UID": {"offset": 0x1C7260, "size": 0x10, "type": "hex"},
-                                "WLAN_MAC": {"offset": 0x1C73C0, "size": 0x6, "type": "hex"},
-                            }
+                            data_offsets = { 
+                            "Chassis Model               ": {"offset": 0x1C7230, "size": 0x20, "type": "string"}, 
+                            "Console Package ID          ": {"offset": 0x1C73E0, "size": 0x8, "type": "string"}, 
+                            "Serial_Number               ": {"offset": 0x1C7210, "size": 0x11, "type": "string"}, 
+                            "Model_Number                ": {"offset": 0x1C7250, "size": 0x10, "type": "string"}, 
+                            "SOC_UID                     ": {"offset": 0x1C7260, "size": 0x10, "type": "hex"}, 
+                            
+                            "Platform ID:                ": {"offset": 0x1C4000, "size": 0x8, "type": "hex"},
 
-                            extracted_data = {}
-                            hardware_info_text = "== HARDWARE INFO ==\n"
-                            for name, params in data_offsets.items():
-                                f.seek(params["offset"])
-                                data = f.read(params["size"]).rstrip(b'\x00').rstrip(b'\xff')
-                                if params["type"] == "string":
-                                    extracted_data[name] = data.decode('ascii', errors='ignore')
-                                elif params["type"] == "hex":
+                            "WLAN_MAC                    ": {"offset": 0x1C73C0, "size": 0x6, "type": "mac"}, # Change type to 'mac'
+                            "Ethernet MAC                ": {"offset": 0x1C4020, "size": 0x6, "type": "mac"}, # Change type to 'mac'
+                            "Ethernet 2 MAC (Dev Kit)    ": {"offset": 0x1C4026, "size": 0x6, "type": "hex"}, # Change type to 'mac'
+                            } 
+
+                            extracted_data = {} 
+                            hardware_info_text = "== HARDWARE INFO ==\n" 
+
+                            # Assuming 'f' is your file object
+                            # f = open("your_binary_file", "rb") # Example: open your binary file
+
+                            for name, params in data_offsets.items(): 
+                                f.seek(params["offset"]) 
+                                data = f.read(params["size"]).rstrip(b'\x00').rstrip(b'\xff') 
+                                if params["type"] == "string": 
+                                    extracted_data[name] = data.decode('ascii', errors='ignore') 
+                                elif params["type"] == "hex": 
                                     extracted_data[name] = data.hex().upper()
-                                hardware_info_text += f"{name.replace('_', ' '):<20}= {extracted_data.get(name, 'N/A')}\n"  # Format here
+                                elif params["type"] == "mac": # Handle MAC address formatting
+                                    mac_bytes = data
+                                    if len(mac_bytes) == 6:
+                                        mac_address = ":".join(f"{byte:02X}" for byte in mac_bytes)
+                                        extracted_data[name] = mac_address
+                                    else:
+                                        extracted_data[name] = "Invalid MAC length"
+
+                                hardware_info_text += f"{name.replace('_', ' '):<20}= {extracted_data.get(name, 'N/A')}\n" # Format here 
+
+                            #print(hardware_info_text)
+
+                            # f.close() # Close your file object
 
                             if output_area:
                                 output_area.insert(output_area.index('end'), hardware_info_text)  # Output Hardware Info to GUI
-                            print(hardware_info_text)
+                            print(color_gradient_terminal(hardware_info_text, colors))
 
-                            serial_number_filename = extracted_data.get("Serial_Number", "UNKNOWN_SERIAL") + ".txt"
+                            serial_number_filename = extracted_data.get("Serial_Number               ", "UNKNOWN_SERIAL") + ".txt"
 
                             # EMC Error Log Extraction and Formatting
                             start_offset_error_log = 0x1CE100
@@ -155,40 +204,28 @@ def decode_nor_functionality(output_area=None):  # output_area is now optional f
                                     if len(row) == 8:
                                         formatted_row = f"{i:02d} {row[0]} {row[1]} {row[2]} {row[3]} {row[4][:4]} {row[4][4:]} {row[5][:4]} {row[5][4:]} {row[6][:4]} {row[6][4:]} {row[7][:4]} {row[7][4:]}\n"
                                         formatted_row += "    Decoded:\n"
-                                        formatted_row += f"      ErrCode     : {decoded.err_code(row[0]).strip()}\n"
+                                        formatted_row += f"      ErrCode     : {decoded.err_code(row[0]).strip()}       {row[0]}\n"
                                         formatted_row += f"      PowerState  : {decoded.pw_state(row[2]).strip()}\n"
                                         formatted_row += f"      UpCause     : {decoded.upcause(row[3]).strip()}\n"
-                                        formatted_row += f"      DevPower    : {decoded.devpower(row[4][:4]).strip()}\n"
+                                        formatted_row += f"      PSQ         : {decoded.psq(row[4][4:8]).strip()}       {(row[4][4:8]).strip()}\n"
+                                        formatted_row += f"      DevPower    : {decoded.devpower(row[5][:4]).strip()}\n"
                                         formatted_row += "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n"
                                         if output_area:
                                             output_area.insert(output_area.index('end'), formatted_row)
                                         print(formatted_row, end="")
 
 
-                                # UART Data Extraction and Formatting (Option 2)
-                                uart_start_offset = 0x200000  # Placeholder - REPLACE WITH ACTUAL OFFSET
-                                uart_end_offset = 0x201000    # Placeholder - REPLACE WITH ACTUAL OFFSET
-
-                                try:
-                                    hex_uart_data = extract_hex_data(bin_file_path, uart_start_offset, uart_end_offset)
-                                    formatted_uart_log = format_uart_data(hex_uart_data, bin_file_path)
-                                    if output_area:
-                                        output_area.insert(output_area.index('end'), formatted_uart_log)  # Output UART Data to GUI
-                                    print(formatted_uart_log)
-                                    output_text = hardware_info_text + formatted_error_log + formatted_uart_log  # Combine all outputs
-
-                                except ValueError as e:
-                                    if output_area:
-                                        output_area.insert(output_area.index('end'), f"Error processing UART Data (Option 2): {e}\n")
-                                        output_area.insert(output_area.index('end'), "UART data will not be included in the output file.\n")
-                                    print(f"Error processing UART Data (Option 2): {e}")
-                                    print("UART data will not be included in the output file.")
                                     output_text = hardware_info_text + formatted_error_log  # Combine without UART data
 
 
                                 output_text += "\n\n== FULL EMC ERROR LOG WITH DECODING ==\n"  # Add section title for full log in file
                                 output_text += formatted_error_log  # Append full formatted error log with decoding to output
                                 output_text += formatted_uart_log  # Append UART log to output file as well
+                                print("------------------------------------\n")
+                                print("== See Above Error Data ==")
+                                print(color_gradient_terminal(hardware_info_text, colors))
+                                print("Output File :", {serial_number_filename})
+                                print("------------------------------------\n")
 
 
                                 with open(serial_number_filename, 'w') as outfile:
@@ -212,7 +249,8 @@ def decode_nor_functionality(output_area=None):  # output_area is now optional f
                 except Exception as e:
                     if output_area:
                         output_area.insert(output_area.index('end'), f"Error processing file {bin_file}: {e}\n")
-                    print(f"Error processing file {bin_file}: {e}")
+                    print(f"processing file {bin_file}:", {serial_number_filename})
+                    print(color_gradient_terminal(hardware_info_text, colors))
                 break # After processing a bin file, break the loop to re-display directory content
             else:
                 print("Invalid selection.")

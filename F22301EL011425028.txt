@@ -1,0 +1,1302 @@
+== HARDWARE INFO ==
+hw model            = CFI-1118A 01
+Package ID          = PKG-1246
+Serial Number       = F22301EL011425028
+Model Number        = 0000027418982<b
+SOC UID             = 3CC2625CEBF79C24B4A409B338288998
+WLAN MAC            = 5C9666C349A3
+E:\EMC\DonysTools\nand 1.bin
+== Emc Error Log ==
+# No  Code      Rtc           PowState      UpCause         SeqNo      DevPm     T(SoC)  T(Env)  Padding(0) Padding(1) | Decoded Messages
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+00 80C00140 18D74771 FFFF0005 00000100 003E 2157 23B8 36FC FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : MAIN_SOC - FORCE OFF
+      PowerState  : HstOsOFF:SOC_ON
+      UpCause     : PBt
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+01 80C00140 18D747B3 FFFF0005 00000100 003E 2157 23FB 3B38 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : MAIN_SOC - FORCE OFF
+      PowerState  : HstOsOFF:SOC_ON
+      UpCause     : PBt
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+02 80830018 18D74817 81000005 00000100 003E 217B 2313 3B3F FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : SoC Sync Flood  Check PG2
+      PowerState  : SysReady:SOC_ON
+      UpCause     : PBt
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+03 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+04 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+05 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+06 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+07 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+08 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+09 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+12 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+15 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+16 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+17 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+18 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+19 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+20 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+21 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+22 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+23 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+24 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+25 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+26 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+27 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+28 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+29 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+30 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+31 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+32 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+33 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+34 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+35 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+36 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+37 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+38 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+39 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+40 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+41 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+42 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+43 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+44 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+45 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+46 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+47 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+48 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+49 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+50 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+51 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+52 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+53 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+54 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+55 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+56 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+57 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+58 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+59 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+60 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+61 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+62 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+63 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+64 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+65 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+66 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+67 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+68 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+69 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+70 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+71 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+72 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+73 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+74 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+75 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+76 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+77 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+78 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+79 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+80 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+81 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+82 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+83 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+84 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+85 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+86 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+87 00000000 00000000 00000000 00000000 0000 0080 80CE EB6A 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+88 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+89 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+90 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+== UART Data (Option 2) == from E:\EMC\DonysTools\nand 1.bin
+Line No. | Hex Data (4-byte chunks)
+------------------------------------
+------------------------------------
+
+
+== FULL EMC ERROR LOG WITH DECODING ==
+E:\EMC\DonysTools\nand 1.bin
+== Emc Error Log ==
+# No  Code      Rtc           PowState      UpCause         SeqNo      DevPm     T(SoC)  T(Env)  Padding(0) Padding(1) | Decoded Messages
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+00 80C00140 18D74771 FFFF0005 00000100 003E 2157 23B8 36FC FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : MAIN_SOC - FORCE OFF
+      PowerState  : HstOsOFF:SOC_ON
+      UpCause     : PBt
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+01 80C00140 18D747B3 FFFF0005 00000100 003E 2157 23FB 3B38 FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : MAIN_SOC - FORCE OFF
+      PowerState  : HstOsOFF:SOC_ON
+      UpCause     : PBt
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+02 80830018 18D74817 81000005 00000100 003E 217B 2313 3B3F FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : SoC Sync Flood  Check PG2
+      PowerState  : SysReady:SOC_ON
+      UpCause     : PBt
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+03 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+04 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+05 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+06 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+07 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+08 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+09 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+12 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+15 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+16 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+17 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+18 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+19 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+20 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+21 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+22 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+23 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+24 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+25 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+26 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+27 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+28 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+29 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+30 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+31 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+32 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+33 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+34 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+35 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+36 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+37 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+38 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+39 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+40 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+41 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+42 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+43 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+44 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+45 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+46 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+47 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+48 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+49 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+50 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+51 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+52 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+53 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+54 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+55 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+56 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+57 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+58 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+59 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+60 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+61 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+62 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+63 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+64 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+65 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+66 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+67 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+68 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+69 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+70 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+71 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+72 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+73 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+74 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+75 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+76 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+77 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+78 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+79 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+80 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+81 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+82 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+83 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+84 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+85 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+86 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+87 00000000 00000000 00000000 00000000 0000 0080 80CE EB6A 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+88 00000000 00000000 00000000 00000000 0000 0000 0000 0000 0000 0000 0000 0000
+    Decoded:
+      ErrCode     : 
+      PowerState  : SysReady:ACIN_L
+      UpCause     : ___
+      DevPower    : HDMI 5V: OFF, BDD: OFF, HDMI-CEC: OFF, USB-VBUS: OFF, WIFI: OFF
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+89 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+90 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF
+    Decoded:
+      ErrCode     : 
+      PowerState  : HstOsOFF:______
+      UpCause     : ___
+      DevPower    : HDMI 5V: ON, BDD: ON, HDMI-CEC: ON, USB-VBUS: ON, WIFI: ON
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+== UART Data (Option 2) == from E:\EMC\DonysTools\nand 1.bin
+Line No. | Hex Data (4-byte chunks)
+------------------------------------
+------------------------------------
